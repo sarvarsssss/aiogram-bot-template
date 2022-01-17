@@ -43,12 +43,12 @@ async def send_link(message: Message):
 @dp.message_handler(text='Ilyos')
 async def send_link(message: Message):
     photo_id = "AgACAgIAAxkBAANDYSzSW86chxwcvgaEEeGx26JtSNUAAim1MRs8yGlJRxaTdkfpt1ABAAMCAAN4AAMgBA"
-    await message.reply_photo(photo_id,caption="Butun dunyoni qogoz bilan taminlidi \nBurgani Ko'tini ko'rgan bola \nSHiori:'Hammasiga uzoqdan kulib qo'ydik' \nLaqabi: 'Akula'", reply_markup=menufriends)
+    await message.reply_photo(photo_id,caption="Butun dunyoni qogoz bilan taminlidi \nBurgani Ko'tini ko'rgan bola \nLaqabi: 'Akula' \nSHiori:'Hammasiga uzoqdan kulib qo'ydik' ", reply_markup=menufriends)
 
 @dp.message_handler(text='Ibrohim')
 async def send_link(message: Message):
     photo_id = "AgACAgIAAxkBAANPYSzV3KhlzQAB2pTkWpf7JJ_BRai4AAIytTEbPMhpSb5CPuDQbomnAQADAgADeAADIAQ"
-    await message.reply_photo(photo_id,caption="Media Park Asoschisi \nOdil bilan Nurini O'rtogi \nLaqabi: 'Suv mushugi' \nBura o'ynashi bilmidi to'risi vasheee blmidi \Shiori:'Ertalab ishda qarsak chalish sogliq ucun foydali' ", reply_markup=menufriends)
+    await message.reply_photo(photo_id,caption="Media Park Asoschisi \nOdil bilan Nurini O'rtogi \nLaqabi: 'Suv mushugi' \nBura o'ynashi bilmidi to'risi vasheee blmidi \nShiori:'Ertalab ishda qarsak chalish sogliq ucun foydali' ", reply_markup=menufriends)
 
 @dp.message_handler(text='Shohjahon')
 async def send_link(message: Message):
